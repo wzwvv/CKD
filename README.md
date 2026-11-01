@@ -12,7 +12,7 @@
 
 </div>
 
-> This repository contains the EEGNet implementation of our paper [**"CKD: Contrastive Knowledge Distillation for Cross-Dataset EEG Classification"**](https://doi.org/10.1109/TBME.2026.3701548), accepted for publication in **IEEE Transactions on Biomedical Engineering (IEEE TBME)**.
+> This repository contains the implementation of our paper [**"CKD: Contrastive Knowledge Distillation for Cross-Dataset EEG Classification"**](https://doi.org/10.1109/TBME.2026.3701548), accepted for publication in **IEEE Transactions on Biomedical Engineering (IEEE TBME)**.
 
 ## Overview
 
@@ -21,7 +21,7 @@
 1. **Cross-dataset teacher pretraining:** Train a teacher on one or multiple auxiliary datasets. In the multi-source setting, each auxiliary dataset has its own embedding module, while the encoder and classifier are shared.
 2. **Cross-subject adaptation:** On the target dataset's training subjects, adapt the teacher and train an independent student using logit-level knowledge distillation and feature-level contrastive alignment. The target embedding is shared by the two branches. Only the student branch is retained for inference.
 
-This release provides the **EEGNet pipeline** for five MI datasets under single-source and multi-source transfer settings. Target-dataset evaluation follows **leave-one-subject-out (LOSO)**: labeled trials from the remaining target subjects are used for training, and the held-out subject is used only for evaluation. This is not label-free transfer to an entirely unseen target dataset or test-time gradient adaptation.
+This release provides the **pipeline** for five MI datasets under single-source and multi-source transfer settings. Target-dataset evaluation follows **leave-one-subject-out (LOSO)**: labeled trials from the remaining target subjects are used for training, and the held-out subject is used only for evaluation. This is not label-free transfer to an entirely unseen target dataset or test-time gradient adaptation.
 
 ## Features
 
