@@ -23,6 +23,9 @@
 
 This release provides the **pipeline** for five MI datasets under single-source and multi-source transfer settings. Target-dataset evaluation follows **leave-one-subject-out (LOSO)**: labeled trials from the remaining target subjects are used for training, and the held-out subject is used only for evaluation. This is not label-free transfer to an entirely unseen target dataset or test-time gradient adaptation.
 
+<img width="1068" height="665" alt="image" src="https://github.com/user-attachments/assets/ad1b9ee8-84c4-4fe9-8ccc-a1496251ef5f" />
+
+
 ## Features
 
 - **Two-stage knowledge transfer** across datasets and subjects.
