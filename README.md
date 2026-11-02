@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) Corresponding Author
 
-[Paper](https://doi.org/10.1109/TBME.2026.3701548) | [PubMed](https://pubmed.ncbi.nlm.nih.gov/42258675/) | [Citation](#citation)
+[Paper](https://doi.org/10.1109/TBME.2026.3701548) | [Citation](#citation)
 
 </div>
 
