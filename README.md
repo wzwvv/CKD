@@ -32,7 +32,6 @@ This release provides the **pipeline** for five MI datasets under single-source 
 - **Logit-level distillation and feature-level InfoNCE** with independently configurable weights and temperatures.
 - **Dataset-specific embeddings** for different channel configurations.
 - **Single-source and multi-source training** with subject-wise online Euclidean Alignment (EA).
-- **Reproducible LOSO evaluation** with configurable seeds, saved configurations, training logs, student checkpoints, and per-subject predictions.
 
 ## Code Structure
 
